@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+header {
+    width: auto;
+    height: 50px;
+    background-color: bisque;
+}
+
+main {
+    background-color: aqua;
+    background-image: url('mixedMessagesBackground.jpg');
+    background-size: 500px 500xp;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    width: auto;
+    height: 650px;
+    
+    
+}
+
+header h1 {
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+#mainButton {
+    padding: 10px 10px;
+    margin: 5px 5px;
+    font-size: 20px;
+    position: relative;
+    position: absolute;
+    top: 70px;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    
+    
+}
+
+#randomSaying {
+    text-align: center;
+    font-size: 50px;
+    background-color: peachpuff;
+    opacity: 0.5;
+    position: relative;
+    top: 200px;
+}
+
+#index {
+    border: 2px solid black;
+    position: relative;
+    float: right;
+    top: 500px;
+}
+
+#demo {
+    position: relative;
+}
