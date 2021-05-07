@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+header {
+    display: inline-block;
+    width: 100%;
+    height: 200px;
+    background-color:darkturquoise;
+}
+
+header h1 {
+    text-align: center;
+    width: auto;
+    height: auto;
+    padding: 5px 5px;
+    border: 2px solid blue;
+    border-radius: 5px;
+    box-shadow: 5px;
+}
+
+main {
+    width: auto;
+    height: 400px;
+    background-color:ivory;
+}
+
+.projectsLink a {
+    display: inline-block;
+    font-size: 25px;
+    border: 1px solid grey;
+    padding: 5px 5px;
+    margin: 10px 10px;
+    border-radius: 5px;
+}
+
+img[src="mainPortfoliomainBackground.jpg"] {
+   
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    width: 450px;
+    
+}
+footer {
+    width: auto;
+    height: 100px;
+    background-color:dimgray;
+}
